@@ -2,17 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/home"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/title_home" />
-
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/group"
+        android:icon="@drawable/ic_action_groups"
+        android:title="@string/title_group" />
+    <item
+        android:id="@+id/hujjat"
+        android:icon="@drawable/ic_action_hujjat"
+        android:title="@string/title_hujjat" />
+    <item
+        android:id="@+id/register"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_register" />
-    <item
-        android:id="@+id/navigation_scientist"
-        android:icon="@drawable/ic_scientist"
-        android:title="@string/title_scientist" />
 
 </menu>

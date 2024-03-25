@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.RegisterFragment">
+    tools:context=".ui.register.RegisterFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -186,7 +186,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="8dp"
                     android:layout_weight="1"
-                    app:endIconDrawable="@drawable/ic_down"
                     app:endIconMode="custom">
 
                     <com.google.android.material.textfield.TextInputEditText

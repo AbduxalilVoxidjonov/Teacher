@@ -3,23 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/home">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/home"
         android:name="com.example.teacher.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
-
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.teacher.ui.dashboard.RegisterFragment"
-        android:label="@string/title_register"
-        tools:layout="@layout/fragment_register" />
+        android:id="@+id/group"
+        android:name="com.example.teacher.ui.group.GroupFagment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/navigation_scientist"
-        android:name="com.example.teacher.ui.scientist.ScientistFagment"
-        android:label="@string/title_scientist"
-        tools:layout="@layout/fragment_scientist" />
+        android:id="@+id/register"
+        android:name="com.example.teacher.ui.register.RegisterFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/hujjat"
+        android:name="com.example.teacher.ui.hujjat.HujjatFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
 
 </navigation>
